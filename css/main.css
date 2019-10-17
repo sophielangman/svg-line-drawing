@@ -1,3 +1,11 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
+h1 {
+  position: absolute;
+}
+
 #narwhal-body {
   animation: line-draw 1s linear forwards;
   stroke-dasharray: 1981px;
@@ -33,8 +41,8 @@
 
 #rainbow-green {
   animation: line-draw 1s linear forwards;
-  stroke-dasharray: 1569px;
-  stroke-dashoffset: 1569px;
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
 }
 
 #rainbow-yellow {
@@ -60,6 +68,7 @@
   to {
     stroke-dashoffset: 0;
   }
+
 }
 
 @keyframes fade {
@@ -67,4 +76,5 @@
   to {
     opacity: 1;
   }
+
 }
